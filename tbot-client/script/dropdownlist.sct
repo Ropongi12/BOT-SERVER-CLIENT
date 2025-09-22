@@ -1,0 +1,533 @@
+;======================================================================
+;DropDownList Script
+;======================================================================
+
+[1. Lobby - CreateRoom (GameRule)]
+
+<EditBox & Button Init>
+;======================================================================	
+;EditBoxRect			ButtonRect			Draw Position	Image Piece	ButtonSprite
+;Left	Top	Right	Bottom	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+356	288	503	302	507	287	523	303	505	285	4	1	data/ui/ui_002.tga
+
+<ListBox Init>
+;======================================================================
+;MaxPage	StartPos	ScrollBar Area(RECT)		ItemWindth	ItemHeight	TextTab	SlotUsed
+;======================================================================
+5		356	306	507	327	523	342	149		15		5	1
+
+<ListBox Button>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+ScrollUp	507	308	523	324	505	306	4	1	data/ui/ui_001.tga
+ScrollDown	507	362	523	378	505	360	4	1	data/ui/ui_002.tga
+ScrollBar	507	327	523	343	505	325	4	1	data/ui/ui_003.tga
+
+[2. Lobby - CreateRoom (Limited Level)]
+
+<EditBox & Button Init>
+;======================================================================	
+;EditBoxRect			ButtonRect			Draw Position	Image Piece	ButtonSprite
+;Left	Top	Right	Bottom	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+356	329	503	343	507	328	523	344	507	328	4	1	data/ui/ui_002.tga
+
+<ListBox Init>
+;======================================================================
+;MaxPage	StartPos	ScrollBar Area(RECT)		ItemWindth	ItemHeight	TextTab	SlotUsed
+;======================================================================
+2		356	347	0	0	0	0	149		15		5	1
+
+<ListBox Button>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+ScrollUp	0	0	0	0
+ScrollDown	0	0	0	0
+ScrollBar	0	0	0	0
+
+
+[3. BattleRoom - Map Select]
+
+<EditBox & Button Init>
+;======================================================================	
+;EditBoxRect			ButtonRect			Draw Position	Image Piece	ButtonSprite
+;Left	Top	Right	Bottom	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+580	383	748	401	749	382	769	402	749	382	4	1	data/ui/ui_002.tga
+
+<ListBox Init>
+;======================================================================
+;MaxPage	StartPos	ScrollBar Area(RECT)		ItemWindth	ItemHeight	TextTab	SlotUsed
+;======================================================================
+7		500	404	751	423	767	510	250		20		5	1
+
+<ListBox Button>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+ScrollUp	751	405	767	422	749	403	4	1	data/ui/ui_001.tga
+ScrollDown	751	525	767	545	749	525	4	1	data/ui/ui_002.tga
+ScrollBar	751	459	767	474	749	457	4	1	data/ui/ui_003.tga
+
+[4. Option - Sound(BGM)]
+
+<EditBox & Button Init>
+;======================================================================	
+;EditBoxRect			ButtonRect			Draw Position	Image Piece	ButtonSprite
+;Left	Top	Right	Bottom	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+308	229	370	243	373	228	389	244	371	226	4	1	data/ui/ui_002.tga
+
+<ListBox Init>
+;======================================================================
+;MaxPage	StartPos	ScrollBar Area(RECT)		ItemWindth	ItemHeight	TextTab	SlotUsed
+;======================================================================
+2		308	247	0	0	0	0	63		15		5	1
+
+<ListBox Button>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+ScrollUp	0	0	0	0
+ScrollDown	0	0	0	0	
+ScrollBar	0	0	0	0
+
+[5. Option - Sound(FX)]
+
+<EditBox & Button Init>
+;======================================================================	
+;EditBoxRect			ButtonRect			Draw Position	Image Piece	ButtonSprite
+;Left	Top	Right	Bottom	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+308	268	370	282	373	267	389	283	371	265	4	1	data/ui/ui_002.tga
+
+<ListBox Init>
+;======================================================================
+;MaxPage	StartPos	ScrollBar Area(RECT)		ItemWindth	ItemHeight	TextTab	SlotUsed
+;======================================================================
+2		308	286	0	0	0	0	63		15		5	1
+
+<ListBox Button>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+ScrollUp	0	0	0	0
+ScrollDown	0	0	0	0	
+ScrollBar	0	0	0	0
+
+[6. Option - Graphic(Effect)]
+
+<EditBox & Button Init>
+;======================================================================	
+;EditBoxRect			ButtonRect			Draw Position	Image Piece	ButtonSprite
+;Left	Top	Right	Bottom	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+313	230	377	244	380	229	397	245	378	227	4	1	data/ui/ui_002.tga
+
+<ListBox Init>
+;======================================================================
+;MaxPage	StartPos	ScrollBar Area(RECT)		ItemWindth	ItemHeight	TextTab	SlotUsed
+;======================================================================
+3		313	248	0	0	0	0	65		15		5	1
+
+<ListBox Button>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+ScrollUp	0	0	0	0
+ScrollDown	0	0	0	0	
+ScrollBar	0	0	0	0
+
+[7. Option - Graphic(Texture)]
+
+<EditBox & Button Init>
+;======================================================================	
+;EditBoxRect			ButtonRect			Draw Position	Image Piece	ButtonSprite
+;Left	Top	Right	Bottom	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+313	269	377	283	380	268	396	284	378	266	4	1	data/ui/ui_002.tga
+
+<ListBox Init>
+;======================================================================
+;MaxPage	StartPos	ScrollBar Area(RECT)		ItemWindth	ItemHeight	TextTab	SlotUsed
+;======================================================================
+3		313	287	0	0	0	0	65		15		5	1
+
+<ListBox Button>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+ScrollUp	0	0	0	0
+ScrollDown	0	0	0	0	
+ScrollBar	0	0	0	0
+
+[8. Option - Graphic(Filtering)]
+
+<EditBox & Button Init>
+;======================================================================	
+;EditBoxRect			ButtonRect			Draw Position	Image Piece	ButtonSprite
+;Left	Top	Right	Bottom	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+313	309	377	323	380	308	396	324	378	306	4	1	data/ui/ui_002.tga
+
+<ListBox Init>
+;======================================================================
+;MaxPage	StartPos	ScrollBar Area(RECT)		ItemWindth	ItemHeight	TextTab	SlotUsed
+;======================================================================
+2		313	327	0	0	0	0	65		15		5	1
+
+<ListBox Button>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+ScrollUp	0	0	0	0
+ScrollDown	0	0	0	0	
+ScrollBar	0	0	0	0
+
+[9. Option - Keyboard(��)]
+
+<EditBox & Button Init>
+;======================================================================	
+;EditBoxRect			ButtonRect			Draw Position	Image Piece	ButtonSprite
+;Left	Top	Right	Bottom	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+275	266	354	280	357	265	373	281	355	263	4	1	data/ui/ui_002.tga
+
+<ListBox Init>
+;======================================================================
+;MaxPage	StartPos	ScrollBar Area(RECT)		ItemWindth	ItemHeight	TextTab	SlotUsed
+;======================================================================
+5		275	284	357	305	373	321	80		15		5	1
+
+<ListBox Button>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+ScrollUp	357	286	373	302	355	284	4	1	data/ui/ui_001.tga
+ScrollDown	357	340	373	356	355	338	4	1	data/ui/ui_002.tga
+ScrollBar	357	322	373	338	357	322	4	1	data/ui/ui_003.tga
+
+[10. Option - Keyboard(��)]
+
+<EditBox & Button Init>
+;======================================================================	
+;EditBoxRect			ButtonRect			Draw Position	Image Piece	ButtonSprite
+;Left	Top	Right	Bottom	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+275	298	354	312	357	297	373	313	355	295	4	1	data/ui/ui_002.tga
+
+<ListBox Init>
+;======================================================================
+;MaxPage	StartPos	ScrollBar Area(RECT)		ItemWindth	ItemHeight	TextTab	SlotUsed
+;======================================================================
+5		275	316	357	335	373	353	80		15		5	1
+
+<ListBox Button>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+ScrollUp	357	318	373	334	355	316	4	1	data/ui/ui_001.tga
+ScrollDown	357	372	373	388	355	370	4	1	data/ui/ui_002.tga
+ScrollBar	357	354	373	370	357	354	4	1	data/ui/ui_003.tga
+
+[11. Option - Keyboard(��)]
+
+<EditBox & Button Init>
+;======================================================================	
+;EditBoxRect			ButtonRect			Draw Position	Image Piece	ButtonSprite
+;Left	Top	Right	Bottom	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+275	330	354	344	357	329	373	345	355	327	4	1	data/ui/ui_002.tga
+
+<ListBox Init>
+;======================================================================
+;MaxPage	StartPos	ScrollBar Area(RECT)		ItemWindth	ItemHeight	TextTab	SlotUsed
+;======================================================================
+5		275	348	357	369	373	385	80		15		5	1
+
+<ListBox Button>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+ScrollUp	357	350	373	366	355	348	4	1	data/ui/ui_001.tga
+ScrollDown	357	404	373	420	355	402	4	1	data/ui/ui_002.tga
+ScrollBar	357	386	373	402	355	386	4	1	data/ui/ui_003.tga
+
+[12. Option - Keyboard(��)]
+
+<EditBox & Button Init>
+;======================================================================	
+;EditBoxRect			ButtonRect			Draw Position	Image Piece	ButtonSprite
+;Left	Top	Right	Bottom	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+275	363	354	377	357	362	373	378	353	360	4	1	data/ui/ui_002.tga
+
+<ListBox Init>
+;======================================================================
+;MaxPage	StartPos	ScrollBar Area(RECT)		ItemWindth	ItemHeight	TextTab	SlotUsed
+;======================================================================
+5		275	381	357	402	373	418	80		15		5	1
+
+<ListBox Button>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+ScrollUp	357	383	373	399	355	381	4	1	data/ui/ui_001.tga
+ScrollDown	357	437	373	453	355	435	4	1	data/ui/ui_002.tga
+ScrollBar	357	419	373	435	357	419	4	1	data/ui/ui_003.tga
+
+[13. Option - Keyboard(����)]
+
+<EditBox & Button Init>
+;======================================================================	
+;EditBoxRect			ButtonRect			Draw Position	Image Piece	ButtonSprite
+;Left	Top	Right	Bottom	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+468	266	547	280	550	265	566	281	548	263	4	1	data/ui/ui_002.tga
+
+<ListBox Init>
+;======================================================================
+;MaxPage	StartPos	ScrollBar Area(RECT)		ItemWindth	ItemHeight	TextTab	SlotUsed
+;======================================================================
+5		468	284	550	305	566	321	80		15		5	1
+
+<ListBox Button>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+ScrollUp	550	286	566	302	548	284	4	1	data/ui/ui_001.tga
+ScrollDown	550	340	566	356	548	338	4	1	data/ui/ui_002.tga
+ScrollBar	550	322	566	338	548	322	4	1	data/ui/ui_003.tga
+
+[14. Option - Keyboard(����)]
+
+<EditBox & Button Init>
+;======================================================================	
+;EditBoxRect			ButtonRect			Draw Position	Image Piece	ButtonSprite
+;Left	Top	Right	Bottom	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+468	298	547	312	550	297	566	313	548	295	4	1	data/ui/ui_002.tga
+
+<ListBox Init>
+;======================================================================
+;MaxPage	StartPos	ScrollBar Area(RECT)		ItemWindth	ItemHeight	TextTab	SlotUsed
+;======================================================================
+5		468	316	550	335	566	353	80		15		5	1
+
+<ListBox Button>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+ScrollUp	550	318	566	334	548	316	4	1	data/ui/ui_001.tga
+ScrollDown	550	372	566	388	548	370	4	1	data/ui/ui_002.tga
+ScrollBar	550	354	566	370	548	354	4	1	data/ui/ui_003.tga
+
+[15. Option - Keyboard(����)]
+
+<EditBox & Button Init>
+;======================================================================	
+;EditBoxRect			ButtonRect			Draw Position	Image Piece	ButtonSprite
+;Left	Top	Right	Bottom	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+468	330	547	344	550	329	566	345	548	327	4	1	data/ui/ui_002.tga
+
+<ListBox Init>
+;======================================================================
+;MaxPage	StartPos	ScrollBar Area(RECT)		ItemWindth	ItemHeight	TextTab	SlotUsed
+;======================================================================
+5		468	348	550	369	566	385	80		15		5	1
+
+<ListBox Button>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+ScrollUp	550	350	566	366	548	348	4	1	data/ui/ui_001.tga
+ScrollDown	550	404	566	420	548	402	4	1	data/ui/ui_002.tga
+ScrollBar	550	386	566	402	548	386	4	1	data/ui/ui_003.tga
+
+[16. Option - Keyboard(����)]
+
+<EditBox & Button Init>
+;======================================================================	
+;EditBoxRect			ButtonRect			Draw Position	Image Piece	ButtonSprite
+;Left	Top	Right	Bottom	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+468	363	547	377	550	362	566	378	548	360	4	1	data/ui/ui_002.tga
+
+<ListBox Init>
+;======================================================================
+;MaxPage	StartPos	ScrollBar Area(RECT)		ItemWindth	ItemHeight	TextTab	SlotUsed
+;======================================================================
+5		468	381	550	402	566	418	80		15		5	1
+
+<ListBox Button>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+ScrollUp	550	383	566	399	548	381	4	1	data/ui/ui_001.tga
+ScrollDown	550	437	566	453	548	435	4	1	data/ui/ui_002.tga
+ScrollBar	550	419	566	435	550	419	4	1	data/ui/ui_003.tga
+
+[17. Whisper - Lobby]
+
+<EditBox & Button Init>
+;======================================================================	
+;EditBoxRect			ButtonRect			Draw Position	Image Piece	ButtonSprite
+;Left	Top	Right	Bottom	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+39	515	130	529	134	512	154	532	134	512	4	1	data/ui/ui_001.tga
+
+<ListBox Init>
+;======================================================================
+;MaxPage	StartPos	ScrollBar Area(RECT)		ItemWindth	ItemHeight	TextTab	SlotUsed
+;======================================================================
+5		36	436	138	457	155	474	98		15		5	1
+
+<ListBox Button>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+ScrollUp	136	436	157	457	136	436	4	1	data/ui/ui_001.tga
+ScrollDown	136	494	157	515	136	494	4	1	data/ui/ui_002.tga
+ScrollBar	138	486	155	507	138	486	4	1	data/ui/ui_003.tga
+
+[18. Gift - ���� ����]
+
+<EditBox & Button Init>
+;======================================================================	
+;EditBoxRect			ButtonRect			Draw Position	Image Piece	ButtonSprite
+;Left	Top	Right	Bottom	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+414	215	575	229	573	212	593	232	573	212	4	1	data/ui/ui_002.tga
+
+<ListBox Init>
+;======================================================================
+;MaxPage	StartPos	ScrollBar Area(RECT)		ItemWindth	ItemHeight	TextTab	SlotUsed
+;======================================================================
+3		414	233	0	0	0	0	159		15		5	1
+
+<ListBox Button>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+ScrollUp	0	0	0	0
+ScrollDown	0	0	0	0	
+ScrollBar	0	0	0	0
+
+[19. ���� - ��������]
+
+<EditBox & Button Init>
+;======================================================================	
+;EditBoxRect			ButtonRect			Draw Position	Image Piece	ButtonSprite
+;Left	Top	Right	Bottom	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+253	54	336	73	337	54	357	74	337	54	4	1	data/ui/ui_002.tga
+
+<ListBox Init>
+;======================================================================
+;MaxPage	StartPos	ScrollBar Area(RECT)		ItemWindth	ItemHeight	TextTab	SlotUsed
+;======================================================================
+3		250	75	0	0	0	0	124		15		5	1
+
+<ListBox Button>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+ScrollUp	0	0	0	0
+ScrollDown	0	0	0	0	
+ScrollBar	0	0	0	0
+
+[20. ���� - ������]
+
+<EditBox & Button Init>
+;======================================================================	
+;EditBoxRect			ButtonRect			Draw Position	Image Piece	ButtonSprite
+;Left	Top	Right	Bottom	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+223	227	559	246	560	226	580	246	560	226	4	1	data/ui/ui_002.tga
+
+<ListBox Init>
+;======================================================================
+;MaxPage	StartPos	ScrollBar Area(RECT)		ItemWindth	ItemHeight	TextTab	SlotUsed
+;======================================================================
+10		223	249	0	0	0	0	336		15		5	1
+
+<ListBox Button>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+ScrollUp	0	0	0	0
+ScrollDown	0	0	0	0	
+ScrollBar	0	0	0	0
+
+[21. Option - Block Option]
+
+<EditBox & Button Init>
+;======================================================================	
+;EditBoxRect			ButtonRect			Draw Position	Image Piece	ButtonSprite
+;Left	Top	Right	Bottom	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+200	235	320	251	303	235	319	251	301	233	4	1	data/ui/ui_002.tga
+
+<ListBox Init>
+;======================================================================
+;MaxPage	StartPos	ScrollBar Area(RECT)		ItemWindth	ItemHeight	TextTab	SlotUsed
+;======================================================================
+6		200	255	0	0	0	0	100		15		5	1
+
+<ListBox Button>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+ScrollUp	0	0	0	0
+ScrollDown	0	0	0	0
+ScrollBar	0	0	0	0
+
+[22. InGame - Chat ]
+
+<EditBox & Button Init>
+;======================================================================	
+;EditBoxRect			ButtonRect			Draw Position	Image Piece	ButtonSprite
+;Left	Top	Right	Bottom	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+150	501	200	518	125	498	147	518	125	498	4	1	data/ui/ui_001.tga
+
+<ListBox Init> 
+;======================================================================
+;MaxPage	StartPos	ScrollBar Area(RECT)		ItemWindth	ItemHeight	TextTab	SlotUsed
+;======================================================================
+5		125	405	210	424	247	460	85		18		5	1
+
+<ListBox Button>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+ScrollUp	212	405	233	426	212	405	4	1	data/ui/ui_001.tga
+ScrollDown	212	475	233	496	212	475	4	1	data/ui/ui_002.tga
+ScrollBar	213	426	233	443	213	426	4	1	data/ui/ui_003.tga
+

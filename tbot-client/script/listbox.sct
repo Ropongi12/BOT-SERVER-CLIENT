@@ -1,0 +1,392 @@
+;======================================================================
+;ListBox Button Script
+;======================================================================
+
+[1. BaseChat Listbox (Lobby, Room)]
+
+<Init>
+;======================================================================
+;		First Item	ScrollBar			Itema Size		
+;MaxPage	Pos		Move Area(RECT)			Width	Height	SlotUsed
+;======================================================================
+6		42	410	526	425	542	472	460	15	1		
+
+<SlotButton>
+;======================================================================
+;SlotImage Piece
+;X	Y		SlotImage
+;======================================================================
+1	3		data/ui/ui_005.tga
+
+<ScrollButton>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+ScrollUp	523	404	543	424	523	404	4	1	data/ui/ui_001.tga
+ScrollDown	523	488	543	508	523	488	4	1	data/ui/ui_002.tga
+ScrollBar	525	471	541	487	525	471	4	1	data/ui/ui_003.tga
+
+[2. Room Chat Listbox]
+
+<Init>
+;======================================================================
+;		First Item	ScrollBar			Itema Size		
+;MaxPage	Pos		Move Area(RECT)			Width	Height	SlotUsed
+;======================================================================
+;6		42	410	374	425	390	472	310	15	1		
+6		42	410	526	425	542	472	460	15	1		
+
+<SlotButton>
+;======================================================================
+;SlotImage Piece
+;X	Y		SlotImage
+;======================================================================
+1	3		data/ui/ui_005.tga
+
+<ScrollButton>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+;ScrollUp	371	404	391	424	371	404	4	1	data/ui/ui_001.tga
+;ScrollDown	371	488	391	508	371	488	4	1	data/ui/ui_002.tga
+;ScrollBar	373	471	389	487	373	471	4	1	data/ui/ui_003.tga
+ScrollUp	523	404	543	424	523	404	4	1	data/ui/ui_001.tga
+ScrollDown	523	488	543	508	523	488	4	1	data/ui/ui_002.tga
+ScrollBar	525	471	541	487	525	471	4	1	data/ui/ui_003.tga
+
+[3. GamePlay Chat Listbox]
+
+<Init>
+;======================================================================
+;		First Item	ScrollBar			Itema Size
+;MaxPage	Pos		Move Area(RECT)			Width	Height	SlotUsed
+;======================================================================
+5		125	520	677	541	692	563	550	16	1
+
+<SlotButton>
+;======================================================================
+;SlotImage Piece
+;X	Y		SlotImage
+;======================================================================
+1	3		data/ui/ui_005.tga
+
+ <ScrollButton>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+ScrollUp		676	522	697	538	676	520	4	1	data/ui/ui_001.tga
+ScrollDown	676	581	697	597	676	579	4	1	data/ui/ui_002.tga
+ScrollBar		677	562	694	578	677	562	4	1	data/ui/ui_003.tga
+
+
+[4. Player Listbox(Lobby) ]
+
+<Init>
+;======================================================================
+;		First Item	ScrollBar			Itema Size
+;MaxPage	Pos		Move Area(RECT)			Width	Height	SlotUsed
+;======================================================================
+;10		586	149	746	165	762	298	147	18	1
+7		587	144	746	160	762	237	147	18	1
+
+<SlotButton>
+;======================================================================
+;SlotImage Piece
+;X	Y		SlotImage
+;======================================================================
+1	3		data/ui/ui_005.tga
+
+<ScrollButton>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+ScrollUp		745	139	765	159	745	139	4	1	data/ui/ui_001.tga
+ScrollDown		745	253	765	273	745	253	4	1	data/ui/ui_002.tga
+ScrollBar		747	158	764	175	747	158	4	1	data/ui/ui_003.tga
+
+[5. ShopItem Listbox(Shop) ]
+
+<Init>
+;======================================================================
+;		First Item	ScrollBar			Itema Size
+;MaxPage	Pos		Move Area(RECT)			Width	Height	SlotUsed
+;======================================================================
+5		54	91	337	107	351	427	277	82	1
+
+<SlotButton>
+;======================================================================
+;SlotImage Piece
+;X	Y		SlotImage
+;======================================================================
+1	3		data/ui/ui_005.tga
+
+<ScrollButton>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+ScrollUp	337	92	351	106	337	92	4	1	data/ui/ui_001.tga
+ScrollDown	337	484	351	498	337	484	4	1	data/ui/ui_002.tga
+ScrollBar	337	107	351	162	337	107	4	1	data/ui/ui_003.tga
+
+[6. UserList Menu Listbox(Lobby) ]
+
+<Init>
+;======================================================================
+;		First Item	ScrollBar			Itema Size
+;MaxPage	Pos		Move Area(RECT)			Width	Height	SlotUsed
+;======================================================================
+5		0	0	0	0	0	0	120	15	1
+
+<SlotButton>
+;======================================================================
+;SlotImage Piece
+;X	Y		SlotImage
+;======================================================================
+1	3		data/ui/ui_005.tga
+
+<ScrollButton>
+;======================================================================
+;Description	Left	Top	Right	Bottom	AniFile
+;======================================================================
+ScrollUp	0	0	0	0
+ScrollDown	0	0	0	0
+ScrollBar	0	0	0	0
+
+[7. Result Chat Listbox]
+
+<Init>
+;======================================================================
+;		First Item	ScrollBar			Itema Size
+;MaxPage	Pos		Move Area(RECT)			Width	Height	SlotUsed
+;======================================================================
+7		41	390	533	404	547	432	490	15	1		
+
+<SlotButton>
+;======================================================================
+;SlotImage Piece
+;X	Y		SlotImage
+;======================================================================
+1	3		data/ui/ui_005.tga
+
+<ScrollButton>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+ScrollUp	533	389	547	403	533	389	4	1	data/ui/ui_001.tga
+ScrollDown	533	479	547	492	533	479	4	1	data/ui/ui_002.tga
+ScrollBar	533	433	547	478	533	433	4	1	data/ui/ui_003.tga
+
+[8. Memo Listbox]
+
+<Init>
+;======================================================================
+;		First Item	ScrollBar			Itema Size
+;MaxPage	Pos		Move Area(RECT)			Width	Height	SlotUsed
+;======================================================================
+10		151	218	620	239	636	345	466	15	1		
+
+<SlotButton>
+;======================================================================
+;SlotImage Piece
+;X	Y		SlotImage
+;======================================================================
+1	3		data/ui/ui_005.tga
+
+<ScrollButton>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+ScrollUp	620	220	636	236	618	218	4	1	data/ui/ui_001.tga
+ScrollDown	620	365	636	381	618	363	4	1	data/ui/ui_002.tga
+ScrollBar	620	239	636	255	620	239	4	1	data/ui/ui_003.tga
+
+[9. Gift Listbox]
+
+<Init>
+;======================================================================
+;		First Item	ScrollBar			Itema Size
+;MaxPage	Pos		Move Area(RECT)			Width	Height	SlotUsed
+;======================================================================
+10		151	218	620	239	636	345	466	15	1		
+
+<SlotButton>
+;======================================================================
+;SlotImage Piece
+;X	Y		SlotImage
+;======================================================================
+1	3		data/ui/ui_005.tga
+
+<ScrollButton>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+ScrollUp	620	220	636	236	618	218	4	1	data/ui/ui_001.tga
+ScrollDown	620	365	636	381	618	363	4	1	data/ui/ui_002.tga
+ScrollBar	620	239	636	255	620	239	4	1	data/ui/ui_003.tga
+
+[10. Lobby RoomListbox]
+
+<Init>
+;======================================================================
+;		First Item	ScrollBar			Itema Size
+;MaxPage	Pos		Move Area(RECT)			Width	Height	SlotUsed
+;======================================================================
+6		34	176	0	0	0	0	510	28	1		
+
+<SlotButton>
+;======================================================================
+;SlotImage Piece
+;X	Y		SlotImage
+;======================================================================
+1	3		data/ui/ui_005.tga
+
+<ScrollButton>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+ScrollUp	0	0	0	0
+ScrollDown	0	0	0	0
+ScrollBar	0	0	0	0
+
+[11. Eura Listbox]
+
+<Init>
+;======================================================================
+;		First Item	ScrollBar			Itema Size		
+;MaxPage	Pos		Move Area(RECT)			Width	Height	SlotUsed
+;======================================================================
+28			56	67	727	85	744	448			656		15		0		
+
+<SlotButton>
+;======================================================================
+;SlotImage Piece
+;X	Y		SlotImage
+;======================================================================
+1	3		data/ui/ui_005.tga
+
+<ScrollButton>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+ScrollUp	725	64	745	84	725	64	4	1	data/ui/ui_001.tga
+ScrollDown	725	465	745	485	725	465	4	1	data/ui/ui_002.tga
+ScrollBar	727	85	743	101	727	85	4	1	data/ui/ui_003.tga
+
+[12. Trade Listbox]
+
+<Init>
+;======================================================================
+;		First Item	ScrollBar			Itema Size		
+;MaxPage	Pos		Move Area(RECT)			Width	Height	SlotUsed
+;======================================================================
+15			379	328	762	346	783	522			372		15		0		
+
+<SlotButton>
+;======================================================================
+;SlotImage Piece
+;X	Y		SlotImage
+;======================================================================
+1	3		data/ui/ui_005.tga
+
+<ScrollButton>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+ScrollUp		762	325	782	345	762	325	4	1	data/ui/ui_001.tga
+ScrollDown	762	536	782	556	762	536	4	1	data/ui/ui_002.tga
+ScrollBar		764	346	780	362	764	346	4	1	data/ui/ui_003.tga
+
+[13. Guild user info Listbox]
+
+<Init>
+;======================================================================
+;		First Item	ScrollBar			Itema Size		
+;MaxPage	Pos		Move Area(RECT)			Width	Height	SlotUsed
+;======================================================================
+7		210	285	581	303	597	356	364	15	0		
+
+<SlotButton>
+;======================================================================
+;SlotImage Piece
+;X	Y		SlotImage
+;======================================================================
+1	3		data/ui/ui_005.tga
+
+<ScrollButton>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+;ScrollUp	579	282	599	302	579	282	4	1	data/ui/ui_001.tga
+;ScrollDown	579	372	599	392	579	372	4	1	data/ui/ui_002.tga
+;ScrollBar	580	303	598	319	580	303	4	1	data/ui/ui_003.tga
+
+ScrollUp	569	282	589	302	569	282	4	1	data/ui/ui_001.tga
+ScrollDown	569	372	589	392	569	372	4	1	data/ui/ui_002.tga
+ScrollBar	570	303	588	319	570	303	4	1	data/ui/ui_003.tga
+
+[14. Guild Requests Listbox]
+
+<Init>
+;======================================================================
+;		First Item	ScrollBar			Itema Size		
+;MaxPage	Pos		Move Area(RECT)			Width	Height	SlotUsed
+;======================================================================
+7		226	216	597	234	613	302	364	15	1		
+
+<SlotButton>
+;======================================================================
+;SlotImage Piece
+;X	Y		SlotImage
+;======================================================================
+1	3		data/ui/ui_005.tga
+
+<ScrollButton>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+;ScrollUp	595	213	615	233	595	213	4	1	data/ui/ui_001.tga
+;ScrollDown	595	303	615	323	595	303	4	1	data/ui/ui_002.tga
+;ScrollBar	597	234	613	205	597	234	4	1	data/ui/ui_003.tga
+
+ScrollUp	595	213	615	233	595	213	4	1	data/ui/ui_001.tga
+ScrollDown	595	303	615	323	595	303	4	1	data/ui/ui_002.tga
+ScrollBar	597	231	613	248	597	231	4	1	data/ui/ui_003.tga
+
+[15. Block Listbox]
+
+<Init>
+;======================================================================
+;		First Item	ScrollBar			Itema Size		
+;MaxPage	Pos		Move Area(RECT)			Width	Height	SlotUsed
+;======================================================================
+5		200	280	419	301	435	327	214	15	1		
+
+<SlotButton>
+;======================================================================
+;SlotImage Piece
+;X	Y		SlotImage
+;======================================================================
+1	3		data/ui/ui_005.tga
+
+<ScrollButton>
+;======================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;======================================================================
+ScrollUp	417	280	437	300	417	280	4	1	data/ui/ui_001.tga
+ScrollDown	417	343	437	363	417	343	4	1	data/ui/ui_002.tga
+ScrollBar	419	301	435	317	419	301	4	1	data/ui/ui_003.tga
+

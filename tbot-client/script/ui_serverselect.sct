@@ -1,0 +1,49 @@
+;===============================================================================
+; Login Page
+;===============================================================================
+
+[Main Button]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+Server1		208	89	591	116
+Server2		208	125	591	152
+Server3		208	161	591	188
+Server4		208	197	591	224
+Server5		208	233	591	260
+Server6		208	269	591	296
+Server7		208	305	591	332
+Server8		208	341	591	368
+Server9		208	377	591	404
+Server10	208	413	591	440
+Server11	208	449	591	476
+Server12	208	485	591	512
+Exit		343	534	457	574	343	534	1	4	data/ui/ui_140.tga
+Cancel		353	287	470	331	353	287	1	4	data/ui/ui_802.tga
+
+[ServerSelect Tab Button]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+Server1		147	22	280	69
+Server2		281	22	411	69
+
+[Sub EditBox ( Create Character Popup Window )]
+;===============================================================================
+;Description	Left	Top	Right	Bottom	File
+;===============================================================================
+Name		417	370	586	386
+
+[Sub Button ( Create Character Popup Window )]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+Hypersuit	199	171	313	226	199	171	1	4	data/ui/ui_122.tga
+Azonas		199	235	313	290	199	235	1	4	data/ui/ui_123.tga
+Geren		199	300	313	355	199	300	1	4	data/ui/ui_124.tga
+Create		251	433	367	477	251	433	1	4	data/ui/ui_121.tga
+Cancel		420	433	536	477	420	433	1	4	data/ui/ui_802.tga
+

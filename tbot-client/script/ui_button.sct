@@ -1,0 +1,7 @@
+[Button]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+Ok		255	363	371	407	255	363	1	4	data/ui/ui_801.tga
+Cancel		420	363	536	407	420	363	1	4	data/ui/ui_802.tga

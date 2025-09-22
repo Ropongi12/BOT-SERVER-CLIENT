@@ -1,0 +1,39 @@
+;===============================================================================
+; MyInfo
+;===============================================================================
+
+[Main Button]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+Tooltip_AP1	39	252	140	284
+Tooltip_AP2	39	325	140	357
+Tooltip_ATA	244	258	294	281
+Tooltip_ATD	319	187	369	210
+Tooltip_Speed	244	187	294	210
+Tooltip_BulAP	319	258	369	281
+Tooltip_Critic	167	258	217	281
+Tooltip_HP	39	182	140	214
+Tooltip_Luck	319	391	370	414
+Tooltip_Miss	167	187	217	210
+Tooltip_Mode	319	330	369	353
+Tooltip_ST	244	330	294	353
+Tooltip_TG	167	330	217	353
+CharDelete	302	103	370	147	302	103	1	4	data/ui/ui_701.tga
+Shop		135	560	247	596	135	560	1	4	data/ui/ui_206.tga
+Exit		679	560	791	596	679	560	1	4	data/ui/ui_207.tga
+
+[Sub Button - QuestionBox]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+Ok		256	363	372	407	256	363	1	4	data/ui/ui_801.tga
+Cancel		422	363	538	407	422	363	1	4	data/ui/ui_802.tga
+
+[Sub EditBox - InputBox]
+;===============================================================================
+;Description	Left	Top	Right	Bottom	File
+;===============================================================================
+주민등록번호	340	320	459	339

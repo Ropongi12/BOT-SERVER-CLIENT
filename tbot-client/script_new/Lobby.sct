@@ -1,0 +1,76 @@
+;===============================================================================
+; Login Page
+;===============================================================================
+; 타입 파일 위치(x, y )
+; 이벤트 관련 (Event)
+; 1 : 방만들기  2: 방 입장  3: 자기정보 4:샾  5:HELP 6:OPTION 7:RANK
+; 8 : URL   9:EXIT
+; 10 : TRADE  11: MEMO  12: GIFT 
+; 20 : LOBBY  21:FRIEND 22: GUILD
+; 30 : BATTLE 31:PL_BATTLE 32 : BS_BATTLE, 33: DT_BATTLE
+; 40 : ROOM_PRE 41:ROOM_NEXT
+
+[Control]
+;Parent Name Type	Source	Set1 Event x	y	x_ct	y_ct	sizex	sizey	
+NULL 1      IMAGE	data/ui/ui_200.tga NULL 0 0  0   1  1
+NULL PY_TAB IMAGE	data/ui/ui_211.tga NULL 0 572, 107   1  3
+NULL GM_TAB IMAGE	data/ui/ui_lobby_tab_gamerooms.dds NULL 0  22 78   1 4
+NULL ADVER  IMAGE	data/ads/adban_lobby.tga NULL 0 574 399   1 1
+NULL MYINFO BUTTON      data/ui/ui_205.tga  NULL 3 11	 560  1 4 130 35
+NULL SHOP BUTTON        data/ui/ui_206.tga  NULL 4 135 560  1 4 130 35
+NULL URL  BUTTON        data/ui/ui_229a.tga NULL 0 267 560  4 1 130 35
+NULL RANK BUTTON        data/ui/ui_221.tga  NULL 0 359 560  4 1 130 35
+NULL OPTION BUTTON      data/ui/ui_224.tga  NULL 6 459 560  4 1 130 35
+NULL HELP BUTTON        data/ui/ui_225.tga  NULL 5 507 560  4 1 130 35
+NULL EXIT  BUTTON       data/ui/ui_207.tga  NULL 9 679 560  1 4 130 35
+NULL RM_PREV BUTTON	data/ui/ui_209.tga  NULL 40 168 353  4 1 20 20
+NULL RM_NEXT BUTTON	data/ui/ui_208.tga  NULL 41 384 353  4 1 20 20
+
+NULL BT_CR BUTTON      data/ui/ui_lobby_btn_mkroom_battle.dds    NULL  1 39 30 1 4  130 35
+NULL BT_JO BUTTON      data/ui/ui_lobby_btn_quickjoin_battle.dds  NULL 2 205 30 1 4 130 35
+
+NULL PL_CR BUTTON      data/ui/ui_lobby_btn_mkroom_planet.dds  NULL   1 39 30 1 4  130 35
+NULL PL_JO BUTTON      data/ui/ui_lobby_btn_quickjoin_planet.dds NULL 2 205 30 1 4 130 35
+
+NULL BS_CR BUTTON      data/ui/ui_lobby_btn_mkroom_base.dds  NULL   1  39 30 1 4  130 35
+NULL BS_JO BUTTON      data/ui/ui_lobby_btn_quickjoin_base.dds NULL 2  205 30 1 4 130 35
+
+NULL DE_CR BUTTON      data/ui/ui_lobby_btn_mkroom_death.dds   NULL  1 39 30 1 4  130 35
+NULL DE_JO BUTTON      data/ui/ui_lobby_btn_quickjoin_death.dds NULL 2  205 30 1 4 130 35
+
+NULL TRADE BUTTON      data/ui/ui_lobby_btn_trade.tga    NULL 10  575	350  1 4 130 35
+NULL MEMO  BUTTON      data/ui/ui_lobby_btn_memo.tga     NULL 11 646	350  1 4 130 35
+NULL GIFT  BUTTON      data/ui/ui_lobby_btn_present.tga  NULL 12 717	350  1 4 130 35
+
+
+NULL TP_LOBBY   TAB    NULL  0/0/72/18   20 572 115
+NULL TP_FRIENDS TAB    NULL  0/0/65/18   21 642 115
+NULL TP_GUILD   TAB    NULL  0/0/73/18   22 708 115 
+
+NULL TP_BATTLE   TAB   NULL   0/0/133/26 30  289 105
+NULL TP_PLBATTLE TAB   NULL   0/0/133/26 31  22  105
+NULL TP_DEATH    TAB   NULL   0/0/133/26 33  156 105
+NULL TP_BSBATTLE TAB   NULL   0/0/133/26 32  423 105
+
+NULL  IM_HELP   IMAGE  data/ui/ui_help.tga  NULL 0 150, 16 1  1
+
+;NULL PC_BANG    IMAGE	data/ui/ui_510.tga NULL 0 500 95   1  1
+
+NULL GUILD   CONTROL  NULL 0/0 0 0 0
+GUILD CREATE      BUTTON      data/ui/ui_lobby_btn_guild_mk.dds NULL    0    586	285  1 4 130 35
+GUILD SUBSCR      BUTTON      data/ui/ui_lobby_btn_guild_request.dds NULL 0    586	308  1 4 130 35
+GUILD INVITE      BUTTON      data/ui/ui_lobby_btn_guild_invite.dds NULL  0   586	285  1 4 130 35
+GUILD BANISH      BUTTON      data/ui/ui_lobby_btn_guild_boot.dds   NULL  0  625	285  1 4 130 35
+GUILD REQUESTS    BUTTON      data/ui/ui_lobby_btn_guild_requests.dds NULL 0  664	285  1 4 130 35
+GUILD EXPANSION   BUTTON      data/ui/ui_lobby_btn_guild_expand.dds  NULL  0 726	285  1 4 130 35
+GUILD UNSUBSCRIBE  BUTTON      data/ui/ui_lobby_btn_guild_withdraw.dds NULL 0 586	308  1 4 130 35
+GUILD IMPEACHMENT BUTTON      data/ui/ui_lobby_btn_guild_gmwithdraw.dds NULL 0 625	308  1 4 130 35
+GUILD INFO 	  BUTTON      data/ui/ui_lobby_btn_guild_info.dds NULL	0  664	308  1 4 130 35
+
+;NULL POPUP   CONTROL NULL 1/1 0 20 100
+;POPUP BACK   IMAGE    data/ui/ui_216.tga NULL 0 0  0   1  1 
+;POPUP OK     BUTTON   data/ui/ui_801.tga NULL 0 74  262  1 4 130 35
+;POPUP CANCEL BUTTON   data/ui/ui_802.tga NULL 0 242 262  1 4 130 35
+;POPUP ED_NAME    EDIT NULL 0/0/269/14/26/1/0  0 170 76 339 90  0 0
+;POPUP ED_PASS  EDIT   NULL 0/0/269/14/10/0/1  0  170 116 339 90  0 0
+;POPUP DRLIST  DLIST    10  		   0 0 0 0  0 0	

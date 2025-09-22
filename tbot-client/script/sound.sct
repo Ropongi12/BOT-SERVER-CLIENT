@@ -1,0 +1,11 @@
+;[ UserInterface	Effect Sound ]
+; 0 ~ 16 -------------------------------------------
+BIG_BUTTON_CLICK		sound/ui_001.wav
+SMALL_BUTTON_CLICK		sound/ui_001.wav
+INVITE_FRIEND			sound/ui_010.wav
+SUCCESS_UPGRADE			sound/ui_020.wav
+LOAD_PARTS			sound/ui_030.wav
+LOAD_ACCESORY			sound/ui_031.wav
+LOAD_SKILLPACK			sound/ui_032.wav
+SUCCESS_BUY_ITEM		sound/ui_033.wav
+

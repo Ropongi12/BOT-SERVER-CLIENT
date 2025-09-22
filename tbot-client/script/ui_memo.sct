@@ -1,0 +1,39 @@
+;===============================================================================
+; Memo
+;===============================================================================
+
+[Send Memo Button]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+Send		256	382	372	426	256	382	1	4	data/ui/ui_805.tga
+Cancel		422	382	516	426	422	382	1	4	data/ui/ui_802.tga
+
+[Memo List Button]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+NewMemo		165	415	284	459	165	415	1	4	data/ui/ui_btn_newmemo.dds
+Read		280	415	396	459	280	415	1	4	data/ui/ui_807.tga
+Closed		396	415	512	459	396	415	1	4	data/ui/ui_804.tga
+Delete		512	415	628	459	512	415	1	4	data/ui/ui_808.tga
+
+[View Memo Button]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+Answer		256	382	372	426	256	382	1	4	data/ui/ui_806.tga
+Cancel		422	382	516	426	422	382	1	4	data/ui/ui_802.tga
+
+[ Other]
+;===============================================================================
+;			Collision Rect			
+;Description		Left	Top	Right	Bottom
+;===============================================================================
+NameEditBox		238	245	355	259
+MemoEditBox/TextBox	394	245	550	332
+
+

@@ -1,0 +1,37 @@
+;===============================================================================
+; Login Page
+;===============================================================================
+
+[Main EditBox]
+;===============================================================================
+;		Collision Rect & Draw Position
+;Description	Left	Top	Right	Bottom	
+;===============================================================================
+ID		468	497	596	511
+Password		468	520	596	534
+
+[Main Button]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+Connection	467	544	597	575	467	544	1	4	data/ui/ui_101.tga
+Exit		679	560	791	596	679	560	1	4	data/ui/ui_207.tga
+Cancel		353	287	470	331	353	287	1	4	data/ui/ui_802.tga
+
+[Sub EditBox ( Create Character Popup Window )]
+;===============================================================================
+;Description	Left	Top	Right	Bottom	File
+;===============================================================================
+Name		417	370	586	386
+
+[Sub Button ( Create Character Popup Window )]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+Hypersuit		199	171	313	226	199	171	1	4	data/ui/ui_122.tga
+Azonas		199	235	313	290	199	235	1	4	data/ui/ui_123.tga
+Geren		199	300	313	355	199	300	1	4	data/ui/ui_124.tga
+Create		251	433	367	477	251	433	1	4	data/ui/ui_121.tga
+Cancel		420	433	536	477	420	433	1	4	data/ui/ui_802.tga

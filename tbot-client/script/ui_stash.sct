@@ -1,0 +1,49 @@
+;===============================================================================
+; Stash
+;===============================================================================
+
+[Main Button]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+Stash1Off	425	28	492	56	425	28	1	4	data/ui/ui_btn_stash_off_no1.dds
+Stash2Off	495	28	562	56	495	28	1	4	data/ui/ui_btn_stash_off_no2.dds
+Stash3Off	565	28	632	56	565	28	1	4	data/ui/ui_btn_stash_off_no3.dds
+Stash4Off	635	28	702	56	635	28	1	4	data/ui/ui_btn_stash_off_no4.dds
+Stash5Off	705	28	772	56	705	28	1	4	data/ui/ui_btn_stash_off_no5.dds
+Stash1On	425	28	492	56	425	28	1	4	data/ui/ui_btn_stash_on_no1.dds
+Stash2On	495	28	562	56	495	28	1	4	data/ui/ui_btn_stash_on_no2.dds
+Stash3On	565	28	632	56	565	28	1	4	data/ui/ui_btn_stash_on_no3.dds
+Stash4On	635	28	702	56	635	28	1	4	data/ui/ui_btn_stash_on_no4.dds
+Stash5On	705	28	772	56	705	28	1	4	data/ui/ui_btn_stash_on_no5.dds
+Stash1Yet	425	28	492	56	425	28	1	4	data/ui/ui_btn_stash_buyyet_no1.DDS
+Stash2Yet	495	28	562	56	495	28	1	4	data/ui/ui_btn_stash_buyyet_no2.DDS
+Stash3Yet	565	28	632	56	565	28	1	4	data/ui/ui_btn_stash_buyyet_no3.DDS
+Stash4Yet	635	28	702	56	635	28	1	4	data/ui/ui_btn_stash_buyyet_no4.DDS
+Stash5Yet	705	28	772	56	705	28	1	4	data/ui/ui_btn_stash_buyyet_no5.DDS
+PutIn		463	283	598	315	463	283	1	4	data/ui/ui_btn_stash_import.dds
+TakeOut		599	283	734	315	599	283	1	4	data/ui/ui_btn_stash_export.dds
+
+[Armory Slot]
+;===============================================================================
+;Description	Left	Top	Right	Bottom	File
+;===============================================================================
+Slot1		439	140	499	200
+Slot2		503	140	563	200
+Slot3		567	140	627	200
+Slot4		631	140	691	200
+Slot5		695	140	755	200
+Slot6		439	205	499	265
+Slot7		503	205	563	265
+Slot8		567	205	627	265
+Slot9		631	205	691	265
+Slot10		695	205	755	265
+
+[Stash Buy Menu Button]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+Ok		256	363	372	407	256	363	1	4	data/ui/ui_801.tga
+Cancel		422	363	538	407	422	363	1	4	data/ui/ui_802.tga

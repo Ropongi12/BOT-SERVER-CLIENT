@@ -1,0 +1,15 @@
+[Main Button]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+Server1		318	194	485	223	318	194	1	4	data/ui/ui_151a.tga
+Server2		318	230	485	259	318	230	1	4	data/ui/ui_151b.tga
+Server3		318	266	485	295	318	266	1	4	data/ui/ui_151c.tga
+Server4		318	303	485	332	318	303	1	4	data/ui/ui_151d.tga
+Server5		318	340	485	369	318	340	1	4	data/ui/ui_151d.tga
+Server6		318	377	485	406	318	377	1	4	data/ui/ui_151d.tga
+Server7		318	340	485	417	318	340	1	4	data/ui/ui_151d.tga
+Exit		342	426	456	466	342	425	1	4	data/ui/ui_140.tga
+약관보기	10	6	150	56	10	6	1	4	data/ui/ui_152.tga
+

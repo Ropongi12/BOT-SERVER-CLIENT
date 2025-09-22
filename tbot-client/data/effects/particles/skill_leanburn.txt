@@ -1,0 +1,12 @@
+gravity : 0
+link : 1
+power : 0.500000
+minrange : 30.000000
+range : 110.000000
+startspeed : -0.300000
+everageweight : 5.000000
+particlenum : 80
+framenum : 1
+tailnum : 8
+texnum : 1
+tex0 : lighta.tga

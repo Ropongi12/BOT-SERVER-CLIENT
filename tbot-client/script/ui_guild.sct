@@ -1,0 +1,23 @@
+[GuildInfo Button]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+Close	345	524	461	566	345	524	1	4	data/ui/ui_804.tga
+Input	538	460	586	482	538	460	1	4	data/ui/ui_lobby_btn_guild_input.dds
+
+[GuildNotice EditBox]
+;===============================================================================
+;		Collision Rect & Draw Position
+;Description	Left	Top	Right	Bottom	
+;===============================================================================
+Notice		195	465	520	478
+
+[GuildRequests]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+Close	355	396	471	440	355	396	1	4	data/ui/ui_804.tga
+Accept	273	330	412	358	273	330	1	4	data/ui/ui_lobby_btn_guildreqs_accept.dds
+Refuse	424	330	563	358	424	330	1	4	data/ui/ui_lobby_btn_guildreqs_decline.dds

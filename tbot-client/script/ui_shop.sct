@@ -1,0 +1,160 @@
+;===============================================================================
+; Lobby Page
+;===============================================================================
+
+[Main Button]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+MyInfo		11	560	123	596	11	560	1	4	data/ui/ui_205.tga
+Exit		679	560	791	596	679	560	1	4	data/ui/ui_207.tga
+ShopPagePrev	151	505	171	525	151	505	1	4	data/ui/ui_420b.tga
+ShopPageNext	231	505	251	525	231	505	1	4	data/ui/ui_420a.tga
+ShopPageStart	129	505	149	525	129	505	1	4	data/ui/ui_420d.tga
+ShopPageEnd	253	505	273	525	253	505	1	4	data/ui/ui_420c.tga
+Sell		415	517	471	539	415	517	1	4	data/ui/ui_410.tga
+ResetParts	517	307	587	328	517	307	1	4	data/ui/ui_415.tga
+
+[Shop Tab]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+추천		18	18	87	47
+파츠		90	18	157	47
+액세서리		160	18	227	47
+장착팩		230	18	297	47
+스페셜		300	18	367	47
+
+[Shop Sub Recommend]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+신상품		25	48	70	77
+파츠		72	48	129	77
+액세서리		131	48	188	77
+장착팩		190	48	247	77
+스페셜		249	48	282	77
+
+[Shop Sub Parts]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+헤드		25	48	60	77
+바디		62	48	109	77
+암		111	48	146	77
+
+[Shop Sub Acce]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+전체		25	48	51	77
+미니릿		55	48	94	77
+오라		97	48	126	77
+플로트건	129	48	179	77
+윙		182	48	222	77
+쉴드		225	48	276	77
+숄더		279	48	329	77
+깃발		332	48	367	77
+
+[Shop Sub Pack]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+전체		25	48	58	77
+타격기술		60	48	119	77
+상황기술		121	48	180	77
+변신팩		182	48	241	77
+용병팩		243	48	302	77
+필드팩		304	48	365	77
+
+[Shop Sub Special]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+전체		25	48	59	77
+소비		61	48	95	77
+우대권		97	48	143	77
+게임		145	48	179	77
+효과		181	48	215	77
+
+[Shop Item Slot]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+Slot1		31	86	197	182	31	86	1	4	data/ui/ui_413.tga
+Slot2		203	86	369	182	203	86	1	4	data/ui/ui_413.tga
+Slot3		31	187	197	283	31	187	1	4	data/ui/ui_413.tga
+Slot4		203	187	369	283	203	187	1	4	data/ui/ui_413.tga
+Slot5		31	288	197	384	31	288	1	4	data/ui/ui_413.tga
+Slot6		203	288	369	384	203	288	1	4	data/ui/ui_413.tga
+Slot7		31	389	197	485	31	389	1	4	data/ui/ui_413.tga
+Slot8		203	389	369	485	203	389	1	4	data/ui/ui_413.tga
+
+[Buy Button]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+button1		151	156	185	172	151	156	1	4	data/ui/ui_414.tga
+button2		323	156	357	172	326	156	1	4	data/ui/ui_414.tga
+button3		151	257	184	273	151	257	1	4	data/ui/ui_414.tga
+button4		323	257	357	273	326	257	1	4	data/ui/ui_414.tga
+button5		151	358	185	374	151	358	1	4	data/ui/ui_414.tga
+button6		323	358	357	374	326	358	1	4	data/ui/ui_414.tga
+button7		151	459	185	475	151	459	1	4	data/ui/ui_414.tga
+button8		323	459	357	475	326	459	1	4	data/ui/ui_414.tga
+
+[Gift Button]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+button1		109	156	143	172	109	156	1	4	data/ui/ui_414a.tga
+button2		281	156	315	172	281	156	1	4	data/ui/ui_414a.tga
+button3		109	257	143	273	109	257	1	4	data/ui/ui_414a.tga
+button4		281	257	315	273	281	257	1	4	data/ui/ui_414a.tga
+button5		109	358	143	374	109	358	1	4	data/ui/ui_414a.tga
+button6		281	358	315	374	281	358	1	4	data/ui/ui_414a.tga
+button7		109	459	143	475	109	459	1	4	data/ui/ui_414a.tga
+button8		281	459	315	475	281	459	1	4	data/ui/ui_414a.tga
+
+[Page Button]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+1		129	519	139	532
+2		145	519	155	532
+3		161	519	171	532
+4		177	519	187	532
+5		193	519	203	532
+6		209	519	219	532
+7		225	519	235	532
+8		241	519	251	532
+9		257	519	267	532
+10		273	519	283	532
+
+[Sub Button - QuestionBox]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+Ok		256	363	372	407	256	363	1	4	data/ui/ui_801.tga
+Cancel		422	363	538	407	422	363	1	4	data/ui/ui_802.tga
+
+[Option Buy Popup]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+Ok		253	426	369	471	253	426	1	4	data/ui/ui_801.tga
+Cancel		424	426	540	471	424	426	1	4	data/ui/ui_802.tga
+MoneyDisplay	391	317	498	337

@@ -1,0 +1,119 @@
+;===============================================================================
+; Lobby Page
+;===============================================================================
+
+[Main Button]
+;===============================================================================
+;			Collision Rect			Draw Position	Image Piece	
+;Description		Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+BattleCreateGame		39	30	166	74	39	30	1	4	data/ui/ui_lobby_btn_mkroom_battle.dds
+PlanetCreateGame		39	30	166	74	39	30	1	4	data/ui/ui_lobby_btn_mkroom_planet.dds
+BaseCreateGame		39	30	166	74	39	30	1	4	data/ui/ui_lobby_btn_mkroom_base.dds
+BattleQuickJoin		205	30	332	74	205	30	1	4	data/ui/ui_lobby_btn_quickjoin_battle.dds
+PlanetQuickJoin		205	30	332	74	205	30	1	4	data/ui/ui_lobby_btn_quickjoin_planet.dds
+BaseQuickJoin		205	30	332	74	205	30	1	4	data/ui/ui_lobby_btn_quickjoin_base.dds
+TradeBoard		375	16	536	71	375	16	1	4	data/ui/ui_lobby_btn_trade_board.dds
+MyInfo			11	560	123	596	11	560	1	4	data/ui/ui_205.tga
+Shop			135	560	247	596	135	560	1	4	data/ui/ui_206.tga
+Rank			359	560	439	596	359	560	4	1	data/ui/ui_221.tga
+Trade			575	350	638	379	575	350	1	4	data/ui/ui_lobby_btn_trade.tga	
+Memo			646	350	710	379	646	350	1	4	data/ui/ui_lobby_btn_memo.tga	
+Gift			717	350	780	379	717	350	1	4	data/ui/ui_lobby_btn_present.tga
+Option			459	560	495	596	459	560	4	1	data/ui/ui_224.tga
+Help			507	560	543	596	507	560	4	1	data/ui/ui_225.tga
+¿Ã∫•∆ÆURL		267	560	347	596	267	560	4	1	data/ui/ui_229a.tga
+Exit			679	560	791	596	679	560	1	4	data/ui/ui_207.tga
+RoomPrevPage		165	349	188	372	169	353	4	1	data/ui/ui_209.tga
+RoomNextPage		384	349	407	372	388	353	4	1	data/ui/ui_208.tga
+DeathCreateGame		39	30	166	74	39	30	1	4	data/ui/ui_lobby_btn_mkroom_death.dds
+DeathQuickJoin		205	30	332	74	205	30	1	4	data/ui/ui_lobby_btn_quickjoin_death.dds
+
+[Sub Button (Consent/Refusal)]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+Consent		256	363	372	407	256	363	1	4	data/ui/ui_809.tga
+refusal		422	363	538	407	422	363	1	4	data/ui/ui_810.tga
+
+[Sub Button (Create Game)]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+Ok		259	393	375	437	259	393	1	4	data/ui/ui_801.tga
+Cancel		427	393	543	437	427	393	1	4	data/ui/ui_802.tga
+
+[Sub Button (Join Game)]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+Ok		252	361	368	405	252	361	1	4	data/ui/ui_801.tga
+Cancel		423	361	539	405	423	361	1	4	data/ui/ui_802.tga
+
+[Sub EditBox(Create Game) ]
+;===============================================================================
+;Description	Left	Top	Right	Bottom	File
+;===============================================================================
+Name		355	207	524	221
+Password		355	247	524	261
+
+[Sub EditBox(Join Game) ]
+;===============================================================================
+;Description	Left	Top	Right	Bottom	File
+;===============================================================================
+Password		320	303	488	317
+
+[Player Tab Button]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+Lobby		572	115	641	133
+Friends		642	115	707	133
+Guild		708	115	775	133
+
+[GameType Tab Button]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+Battle		289	105	422	131
+PlanetBattle	22	105	155	131	
+BaseBattle	423	105	556	131
+DeathMatch	156	105	288	131
+
+
+
+[Page Button]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+1		192	352	209	369
+2		211	352	228	369
+3		230	352	247	369
+4		249	352	266	369
+5		269	352	285	369
+6		287	352	304	369
+7		306	352	323	369
+8		325	352	342	369
+9		344	352	361	369
+10		363	352	380	369
+
+[Guild Button]
+;===============================================================================
+;			Collision Rect			Draw Position	Image Piece	
+;Description		Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+CREATE_BUTTON		586	285	762	306	586	285	1	4	data/ui/ui_lobby_btn_guild_mk.dds
+SUBSCRIBE_BUTTON	586	308	762	329	586	308	1	4	data/ui/ui_lobby_btn_guild_request.dds
+INVITE_BUTTIN		586	285	621	306	586	285	1	4	data/ui/ui_lobby_btn_guild_invite.dds
+BANISH_BUTTON		625	285	660	306	625	285	1	4	data/ui/ui_lobby_btn_guild_boot.dds
+REQUESTS_BUTTON	664	285	722	306	664	285	1	4	data/ui/ui_lobby_btn_guild_requests.dds
+EXPANSION		726	285	761	306	726	285	1	4	data/ui/ui_lobby_btn_guild_expand.dds
+UNSUBSCRIBE_BUTTON	586	308	621	329	586	308	1	4	data/ui/ui_lobby_btn_guild_withdraw.dds
+IMPEACHMENT_BUTTON	625	308	660	329	625	308	1	4	data/ui/ui_lobby_btn_guild_gmwithdraw.dds
+INFO			664	308	761	329	664	308	1	4	data/ui/ui_lobby_btn_guild_info.dds

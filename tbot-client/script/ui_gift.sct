@@ -1,0 +1,65 @@
+;===============================================================================
+; Gift
+;===============================================================================
+
+[Send Gift Button]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+Send		257	413	373	457	257	413	1	4	data/ui/ui_805.tga
+Closed		423	413	539	457	423	413	1	4	data/ui/ui_804.tga
+PutItem		437	326	512	366	437	326	1	4	data/ui/ui_812.tga
+OutItem		514	326	589	366	514	326	1	4	data/ui/ui_813.tga
+GoldEdit	544	337	588	366	544	337	1	4	data/ui/ui_814.tga
+BoltEdit	520	315	564	344	520	315	1	4	data/ui/ui_814.tga
+;NutEdit	544	300	588	329	544	300	1	4	data/ui/ui_814.tga
+;GearEdit	399	337	443	366	399	337	1	4	data/ui/ui_814.tga
+;ChipEdit	544	337	588	366	544	337	1	4	data/ui/ui_814.tga
+
+[Send Gift Other]
+;===============================================================================
+;			Collision Rect			
+;Description		Left	Top	Right	Bottom
+;===============================================================================
+NameEditBox		202	215	383	229
+GiftTitleEditBox	281	255	592	269
+MoneyTextBox		420	345	535	358
+BoltTextBox		458	325	520	338
+;NutTextBox		495	307	535	320
+;GearTextBox		350	345	390	358
+;ChipTextBox		495	345	535	358
+ItemSlot		353	301	418	365
+
+[Gift List Button]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+NewGift		165	416	284	460	165	416	1	4	data/ui/ui_btn_newgift.dds
+GiftView	280	416	396	460	280	416	1	4	data/ui/ui_817.tga
+Closed		396	416	512	460	396	416	1	4	data/ui/ui_804.tga
+DeleteGift	512	416	628	460	512	416	1	4	data/ui/ui_808.tga
+
+[Get Gift Button]
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+;===============================================================================
+Get		257	413	373	457	257	413	1	4	data/ui/ui_816.tga
+Closed		423	413	539	457	423	413	1	4	data/ui/ui_804.tga
+
+[Get Gift Other]
+;===============================================================================
+;			Collision Rect			
+;Description		Left	Top	Right	Bottom
+;===============================================================================
+MoneyTextBox		420	345	535	358
+BoltTextBox		458	325	520	338
+;NutTextBox		495	307	535	320
+;GearTextBox		350	345	390	358
+;ChipTextBox		495	345	535	358
+NameTextBox		301	190	415	203
+GiftTitleEditBox	281	238	592	251
+ItemSlot		353	301	418	365
+

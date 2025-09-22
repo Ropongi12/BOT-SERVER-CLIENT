@@ -1,0 +1,40 @@
+;===============================================================================
+; Login Page
+;===============================================================================
+; 타입 파일 위치(x, y )
+
+[Control]
+NULL 1 IMAGE	data/ads/adban_main.jpg NULL  0 0 0   1  1
+NULL 2 IMAGE	data/ui/ui_100.tga  	NULL  0 0 0   1  1
+NULL 3 IMAGE	data/ads/adban_login.tga NULL 0 16 489 1  1
+NULL BU_LOGIN BUTTON data/ui/ui_101.tga NULL  0 467 544 1 4 130 35
+NULL BU_EXIT  BUTTON data/ui/ui_207.tga NULL  0 679 560 1 4 110 35
+NULL ED_ID    EDIT   NULL 0/0/112/13/12/1/0   0 468 500 596 511  0 0
+NULL ED_PASS  EDIT   NULL 0/0/112/13/12/0/1   0 468 523 596 511  0 0
+
+
+;NULL LBOX_EDIT LISTBOX  150/217/380/15/12/1/0  468 500 596 511  0 0   
+;LBOX_EDIT ScrollUp BUTTON  data/ui/ui_001.tga 520 200 4 1 16 16
+;LBOX_EDIT ScrollDown BUTTON data/ui/ui_002.tga 520 365 4 1 16 16
+;LBOX_EDIT ScrollBar  BUTTON data/ui/ui_003.tga 520 239 4 1 16 16
+;LBOX_EDIT ScrollBar   BUTTON data/ui/ui_003.tga 520 239 4 1 16 16
+
+;NULL LS_TEST LISTBOX NULL NULL 0 100 100 1 1
+;LS_TEST UP_BUTTON BUTTON data/ui/ui_001.tga NULL   0 420 0   4 1 130 35
+;LS_TEST DOWN_BUTTON BUTTON data/ui/ui_002.tga NULL 0 420 142 4 1 130 35
+;LS_TEST BAR_BUTTON BUTTON data/ui/ui_003.tga NULL  0 422 126  4 1 130 35
+;LS_TEST TP_1   TAB    NULL  0/0/425/15   1 -5 15
+;LS_TEST TP_2   TAB    NULL  0/0/425/15   2 -5 30
+;LS_TEST TP_3   TAB    NULL  0/0/425/15   3 -5 45
+;LS_TEST TP_4   TAB    NULL  0/0/425/15   4 -5 60
+;LS_TEST TP_5   TAB    NULL  0/0/425/15   5 -5 75
+;LS_TEST TP_6   TAB    NULL  0/0/425/15   6 -5 90
+;LS_TEST TP_7   TAB    NULL  0/0/425/15   7 -5 105
+;LS_TEST TP_8   TAB    NULL  0/0/425/15   8 -5 120
+;LS_TEST TP_9   TAB    NULL  0/0/425/15   9 -5 135
+;LS_TEST TP_10   TAB    NULL  0/0/425/15   10 -5 150
+
+
+;NULL DRLIST  DLIST    10  		   0 0 0 0  0 0	
+
+

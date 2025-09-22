@@ -1,0 +1,13 @@
+;===============================================================================
+; Login Page
+;===============================================================================
+; 타입 파일 위치(x, y, dx, dy)
+
+[Control]
+NULL 1 IMAGE	data/ui/ui_110.tga NULL 0  275 135 1  1
+NULL 2 IMAGE	data/ui/ui_111.tga NULL 0 379 201 1  10
+NULL 3 IMAGE	data/ui/ui_112.tga NULL 0 350 239 1  1
+NULL BU_CANCEL BUTTON  data/ui/ui_802.tga NULL 0 353 287 1 4 111 45
+
+
+

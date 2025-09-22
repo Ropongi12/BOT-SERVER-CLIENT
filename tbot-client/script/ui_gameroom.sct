@@ -1,0 +1,11 @@
+;===============================================================================
+;		Collision Rect			Draw Position	Image Piece	
+;Description	Left	Top	Right	Bottom	X	Y	X	Y	File
+
+[DIFFCULT]
+slot01		574	348	641	376
+Slot02		642	348	709	376
+Slot03		710	348	777	376
+
+[SHOP]
+Shop		5	350	117	386	5	350	1	4	data/ui/ui_206.tga
